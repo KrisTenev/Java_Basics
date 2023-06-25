@@ -7,11 +7,11 @@ public class Test {
         Scanner scan =  new Scanner(System.in);
 
         double a = 1.23;
-        double lev = 1.23 / 1;
-        double fiftycent = lev % 0.5;
+        double lev = a / 1;
+        double fiftyCent = lev % 0.5;
 
         System.out.println(lev);
-        System.out.println(fiftycent);
+        System.out.println(fiftyCent);
 
 
     }
